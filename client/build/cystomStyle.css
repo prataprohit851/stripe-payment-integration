@@ -1,0 +1,271 @@
+#my{
+    zoom: 100%;
+    }
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: rgba(30,76,144,255);
+    
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-signin{
+    background-color: white;
+    padding: 20px 50px 50px 50px;
+    border-radius: 25px;
+    width: 25vw;
+    margin-top: 15vh;
+}
+
+.form-floating{
+    padding: 5px 0px;;
+    width: 100%;
+}
+
+.labels{
+    margin: 5px 0px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+.h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-check{
+    margin: 15px 0px 5px 0px;
+}
+
+
+
+/* NEW */
+
+
+.plan-table{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 83rem;
+    /* margin-top: 0px; */
+    justify-content: center;
+    padding-top: 20px;
+    /* align-items: center; */
+}
+
+/* .column-division{
+
+    row-gap: 50px;
+} */
+
+#table1 {
+    /* border-collapse: separate; */
+    border-spacing: 100px 5px;
+    border-collapse: collapse;
+}
+
+.table-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid black;
+}
+
+#table1 th, #table1 td {
+    padding: 20px 60px;
+}
+
+
+
+input[type="radio"]{
+visibility: hidden;
+height: 0;
+width: 0;
+}
+
+#Monthly-Yearly>input[type="radio"]:checked + label{
+    background-color: white;
+    border-radius: 500px;
+    color: rgba(30,76,144,255);
+}
+
+
+#Monthly-Yearly{
+    background-color: rgba(30,76,144,255);
+    border-radius: 100px;
+    padding: 10px;
+
+}
+
+#Yearly{
+    margin-left: 4px;
+    font-size: 100px;
+}
+#Monthly{
+    margin-left: 5px;
+}
+
+#Monthly-Yearly>label{
+    text-align: center;
+    font-size: 15px;
+    width : 77px;
+    padding: 10px;
+}
+
+/*NEW NEW NEW NEW NEW*/
+
+
+.plan:checked + label{
+    background-color: rgb(30,76,144);
+    padding: 50px;
+    
+}
+
+.plan{
+    background-color: rgb(30,76,144, 0.4);
+    padding: 50px;
+}
+
+.selected{
+    color: rgb(30,76,144);
+}
+
+.selected-plan{
+    background-color: rgb(30,76,144);
+}
+
+th:nth-child(n){
+    color: white;
+}
+
+#table1 td:nth-child(n){
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.pay-btn{
+    display: block;
+    align-items: center;
+    width: 40%;
+    font-weight: bold;
+}
+.btn-centre{
+    display: flex;
+    justify-content: center;
+}
+
+/* .planbox{
+    @apply relative mx-1.5 flex h-20 w-[calc(100%/3)] cursor-default
+    items-centre justify-center rounded-sm bg-[#e50914] font-semibold
+    shadow after:absolute after:top-full after:left-1/2 after:block
+    after:-translate-x-1/2 after:border-8 after: border-b-0
+    after:border-transparent after:border-t-[#e50914]
+} */
+
+.pay-main-box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    border-radius: 7px;
+    width: 1000PX;
+}
+
+.pay-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-second-box{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 25px 25px;
+    border-radius: 0px 8px 8px 0px;
+    padding-bottom: 106px;
+}
+
+.pay-first-box{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 25px 25px;
+}
+
+#table2{
+    margin-top: 50px;
+    display: grid;
+    border-spacing: 10px 18px;
+    border-collapse: collapse;
+}
+
+
+/* #table2{
+    margin-top: 50px;
+    width: 100%;
+    border-spacing: 10px 18px;
+    border-collapse: separate;
+    margin-right: 322px;
+} */
+
+.pay-para{
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.payment-btn{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.pay-second-heading{
+    width: 100%;
+    height: 100%;
+}
+
+.card-element{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.559);
+}
+
+#table2 th, #table2 td {
+    padding: 20px 0 20px 0px
+}
+
+#table2 tr{
+    display: flex;
+    padding-right: auto;
+    justify-content: space-between;
+}
+
+/* NEW NEW NEW NEW NEW NEW NEW NEW*/
+
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(30,76,144);
+    position: relative;
+    top: -5px;
+    left: 55px;
+    /* visibility: hidden; */
+}
